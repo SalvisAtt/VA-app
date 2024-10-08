@@ -9,8 +9,7 @@ DesktopClient/
 ├── app/
 │   ├── __init__.py
 │   ├── chat.py         # Main chat app file
-│   ├── config.json
-and conversation (optional, for the future)
+│   ├── config.json     # set API URL and GPT thread ID here
 │
 ├── .gitignore          # Add filenames you do not want to be added to your repository here
 ├── requirements.txt    # Dependencies
@@ -24,7 +23,8 @@ and conversation (optional, for the future)
 ### Check Python version, it should be 3.1x
 `python3 --version`
 
-### Download the code from GitHub repository
+### Get the code from GitHub repository
+Refer to the instructions here: [https://github.com/ingus-t/rtu-web-service](https://github.com/ingus-t/rtu-web-service)
 
 ### Create environment
 `python3 -m venv [environment_name]`
